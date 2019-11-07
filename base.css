@@ -1,5 +1,6 @@
 * {
 	--bg: #333333;
+	--bg2: #555555;
 	--colour1: #00FF00;
 	--colour2: #009900;
 	--colour3: #00FFFF;
@@ -25,4 +26,24 @@ p, li {
 
 a {
 	color: var(--colour3);
+}
+
+#author div {
+	background-color: var(--bg2);
+	color: var(--colour1);
+}
+#author img {
+	width: 100px;
+}
+#author #author-text {
+	display: inline-block;
+}
+#author ul {
+	list-style-type: none;
+	margin-top: 5px;
+}
+#author ul li:before {
+	content: '{}';
+	margin-left: -20px;
+	margin-right: 10px;
 }
