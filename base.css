@@ -8,6 +8,7 @@
 body {
 	background-color: var(--bg);
 	font-family: monospace;
+	margin-top: 50px;
 }
 
 h1, h2 {
