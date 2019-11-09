@@ -9,7 +9,6 @@
 body {
 	background-color: var(--bg);
 	font-family: monospace;
-	margin-top: 50px;
 }
 
 h1, h2 {
@@ -26,6 +25,10 @@ p, li {
 
 a {
 	color: var(--colour3);
+}
+
+.navbar-brand {
+	background-color: var(--bg2);
 }
 
 #author div {
