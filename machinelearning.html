@@ -11,38 +11,67 @@
 	<title>Machine Learning</title>
 </head>
 	<body>
+		<nav class="navbar navbar-inverse navbar-static-top">
+		    <div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">AOCPC</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="medicine.html">Medicine</a></li>
+					<li class="active"><a href="machinelearning.html">Machine Learning</a></li>
+					<li><a href="ai.html">AI</a></li>
+				</ul>
+			</div>
+		</nav>
+		
 		<div class="container">
 		<h1>Machine Learning</h1>
 		
 		<p>Machine Learning allows computers to learn how to do a task humans can do.</p>
-		<p>As long as there is enough training data, it doesn't matter how complex the task they are learning</p>
-		
-		<br />
+		<p>As long as there is enough training data, it doesn't matter how complex the task they are learning.</p>
 		
 		<h2>Applications of Machine Learning</h2>
 		<ul>
 			<li>Self-Driving Cars</li>
 			<li>Medical Diagnosis</li>
 			<li>Speech Recognition</li>
+			<li>Pattern Recognition</li>
+		</ul>
+		
+		<h2>Deep Learning</h2>
+		<p>Deep Learning is a type of Machine Learning.</p>
+		<p>It can be thought of like a weighted graph. There are a collection of input nodes which are all connected to a series of intermediary nodes which are then reduced to a set of output nodes. The model can then be fed test data which is a set of inputs with corresponding set of outputs. The weightings of the intermediary nodes are then adjusted so that the inputs produce the outputs. The more test data given, the more accurate the model becomes.</p>
+		<p>This idea is illustrated through the image bellow.</p>
+		<img src="https://www.researchgate.net/profile/Will_Serrano/publication/313408173/figure/fig8/AS:669010169438243@1536515862984/Artificial-Neural-Network-Deep-Learning-model.png" />
+		
+		<h2>Machine Learning Methods</h2>
+		<ul>
+			<li><b><u>Supervised machine learning algorithms</u></b> can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.</li>
+			<li><b><u>Unsupervised machine learning algorithms</u></b> are used when the information used to train is neither classified nor labeled. Unsupervised learning studies how systems can infer a function to describe a hidden structure from unlabeled data. The system doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.</li>
+			<li><b><u>Semi-supervised machine learning algorithms</u></b> fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training – typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiringunlabeled data generally doesn’t require additional resources.</li>
+			<li><b><u>Reinforcement machine learning algorithms</u></b> is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning. This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal.</li>
 		</ul>
 		
 		<br />
 		
 		<a target="_blank" href="https://en.wikipedia.org/wiki/Machine_learning">Wiki Page</a>
+		
+		<hr />
+		<div id="author" class="panel panel-default" >
+			<div class="panel-body">Author - Dan</div>
+			<div class="panel-footer">
+			<div style="overflow: auto">
+				<img src="dan.jpg" class="img-thumbnail" />
+				<div id="author-text">
+					<p>Daniel's programming experience started at a young age when he started learning the fundamentals of programming and the basic techniques that he would use throuhgout his career in year 7. Since starting to code, he reached a number of milestones such as creating a website in addition to creating his own game. He has a passion for coding and says that he loves being able to achieve anything with programming.</p>
+				</div>
+			</div>
+			<ul>
+				<li><a target="blank" href="https://github.com/danielmsorensen">Github</a></li>
+				<li><a target="blank" href="http://danielmsorensen.com/">Website</a></li>
+			</ul>
+			</div>
+		</div>
 		</div>
 	</body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="medicine.html">Medicine</a></li>
-      <li class="active"><a href="machinelearning.html">Machine Learning</a></li>
-      <li><a href="ai.html">AI</a></li>
-    </ul>
-  </div>
-</nav>	
-
 </html>
