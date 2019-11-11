@@ -1,10 +1,10 @@
-i.  Interest of content The content on all pages are deep and engaging.
+i.  Interest of content<br> The content on all pages are deep and engaging.
     Their is clear evidence that the pages were written fully by the
     authors and their is no evidence of plagarism. The pages clearly
     highlight the authors genuine interest in the subjects. The only
     complaint is that the AI page is disproportionately small compared
     to the other pages. For the above reasons I rate this section
-    |Exemplary|.
+    |Exemplary|.<br>
 ii. Consistency and quality of visual presentation All the pages have a
     non-default background that distinguishes them from the average page
     on the net. The text of all pages is in the non-default colour of
